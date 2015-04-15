@@ -88,3 +88,9 @@ footer strong {
 .media-left {
   padding-right: 3px;
 }
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 6px;
+}
