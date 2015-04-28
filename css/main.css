@@ -64,6 +64,10 @@ footer strong {
   margin-top: 10px;
 }
 
+.logo {
+  width: 20em;
+}
+
 .splash-image {
   background-image: url(../img/concert.jpg);
   background-position: center center;
