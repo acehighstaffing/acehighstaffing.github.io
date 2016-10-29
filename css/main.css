@@ -97,3 +97,24 @@ footer strong {
   text-decoration: none;
   padding: 0 6px;
 }
+
+.client-logo {
+  height: 150px;
+  position: relative;
+}
+
+.client-logo img {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+/* Disable grayscale on hover */
+.client-logo img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
